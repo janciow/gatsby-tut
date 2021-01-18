@@ -26,6 +26,7 @@ coverage
 .nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -41,6 +42,7 @@ build/Release
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
 # TypeScript v1 declaration files
 typings/
 
@@ -102,3 +104,20 @@ dist
 
 # TernJS port file
 .tern-port
+
+# dotenv environment variable files
+.env*
+
+# gatsby files
+.cache/
+public
+
+# Mac files
+.DS_Store
+
+# Yarn
+yarn-error.log
+.pnp/
+.pnp.js
+# Yarn Integrity file
+.yarn-integrity
