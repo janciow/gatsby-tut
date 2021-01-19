@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
-import styles from "../components/blog.module.css"
+import styles from "../components/products.module.css"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
 
@@ -20,7 +20,7 @@ const ComponentName = ({ data }) => {
               <h3>
                 {product.title} <span>{product.price}</span>
               </h3>
-              <Link to={`/products/${product.slug}`}>go to</Link>
+              <Link to={`/products/${product.slug}`}>More details</Link>
             </article>
           )
         })}

@@ -14,6 +14,10 @@
   margin: 2rem 0;
 }
 
+.page div {
+  height: 250px;
+}
+
 @media screen and (min-width: 768px) {
   .page {
     display: grid;
